@@ -23,3 +23,20 @@ git status
 git commit -m  "commit message: brief description"
 git status
 ```
+### 4. Create branch
+```
+git branch dir/branch-name
+git branch
+```
+### 5. Check out branch
+```
+git checout dir/branch-name
+git status
+```
+### 6. Merge to master
+```
+git checkout master
+git status
+git merger dir/branch name
+git status
+git log
