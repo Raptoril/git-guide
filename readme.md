@@ -68,7 +68,37 @@ git stash list
 ```
 ### 10. Pop stash
 ```
-
 git stash list
 git stash Popgit stash  list
+```
+### 11. Revert Commit
+```
+git log --oneline
+git revert [Commit_ID]
+```
+### 12. Revert Commit
+```
+git log --oneline
+git cherry-pick [Commit_ID]
+```
+### 13. Reset
+```
+git stash list
+git stash Popgit stash  list
+```
+### 14.create patch
+```
+git stash list
+git stash Popgit stash  list
+```
+### 15. Apply patch
+```
+git stash list
+git stash Popgit stash  list
+```
+### 16. Init GitHub
+```
+Git remote add origin [REMOTE-URL]
+git push -u origin master
+git push origin --all
 ```
