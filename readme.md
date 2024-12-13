@@ -85,11 +85,22 @@ git cherry-pick [Commit_ID]
 ```
 git stash list
 git stash Popgit stash  list
+tambien puedes usar los 3 resets que vienen por defecto en el sublime merge que son:
+git Reset --soft
+git reset 
+git reset --hard
+otros resets son
+git reset "nombre del archivo"
+git reset <# del commit>
 ```
 ### 14.create patch
 ```
 git stash list
 git stash Popgit stash  list
+tambien puees usar:
+git diff > cambios.patch
+git diff --chached > cambios.patch
+git format-patch -1 <commit-hash>
 ```
 ### 15. Apply patch
 ```
